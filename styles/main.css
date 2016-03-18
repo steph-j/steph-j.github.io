@@ -33,6 +33,14 @@ nav ul li a {
   color: black;
 }
 
+.homepage {
+ background: #33CCCC;
+ color: #999;
+ padding: 15px;
+ border-radius: 5px;
+ margin: 1%; 
+}
+
 p {
   clear: both;
 }
