@@ -1,9 +1,38 @@
-nav {
-  background: 999;
+body {
+  background: #33CCCC;
+  color: white;
   margin: 0;
+  font-family: Palatino;
 }
 
-body {
-  background: #C00000;
-  color: white;
+header {
+  background: #999;
+  margin: 0;
+  padding: 15px;
+  font-weight: bold;
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px;
+
+}
+
+nav ul li {
+  background: #33CCCC;
+  color: #999;
+  display: inline-block;
+  list-style-type: none;
+  padding: 15px 1%;
+  width: 29%;
+  border-radius: 5px;
+  margin: 1%;
+}
+
+nav ul li a {
+  color: black;
+}
+
+p {
+  clear: both;
 }
