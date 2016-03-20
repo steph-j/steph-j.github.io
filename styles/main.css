@@ -3,6 +3,7 @@ body {
   color: white;
   margin: 0;
   font-family: Palatino;
+  text-align: center;
 }
 
 header {
@@ -19,21 +20,25 @@ nav ul {
 }
 
 nav ul li {
-  background: #33CCCC;
-  color: #999;
+  background: #999;
+  color: #33CCCC;
   display: inline-block;
   list-style-type: none;
   padding: 15px 1%;
-  width: 29%;
+  width: 10%;
   border-radius: 5px;
 }
 
 .homepage li {
+  background: #999;
+  color: white;
   display: list-item;
-  margin: auto;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 1%;
+  width: 29%;
   margin-bottom: 1%;
+  text-align: center;
 }
 
 
@@ -43,4 +48,11 @@ nav ul li a {
 
 p {
   clear: both;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.Title {
+  text-decoration: underline;
+  text-decoration-style: wavy; 
 }
