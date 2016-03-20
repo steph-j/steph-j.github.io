@@ -26,8 +26,16 @@ nav ul li {
   padding: 15px 1%;
   width: 29%;
   border-radius: 5px;
-  margin: 1%;
 }
+
+.homepage li {
+  display: list-item;
+  margin: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
 
 nav ul li a {
   color: black;
