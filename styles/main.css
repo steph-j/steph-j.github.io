@@ -1,11 +1,109 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-    <meta charset="UTF-8">
-    
-  </head>
-  <body>
-  
-  </body>
-</html>
+body {
+/*   background-image: url(background_cobwebs.jpg); */
+
+  box-sizing: border-box;
+  font-family: 'Short Stack', cursive;
+  display: block;
+   }
+
+.band_header h1 {
+  color: #708090;
+  text-indent: 2%;
+  margin-top: 0;
+  }
+
+.band_header p {
+  float: right;
+}
+
+.band_header {
+   background-color: #FFA500;
+   opacity: 0.8;
+   max-width: 100%;
+   padding: 2%;
+}
+
+
+.band_welcome {
+  background-color: #708090;
+  text-align: center;
+  padding: 0;
+}
+
+h1 {
+  color: #FFA500;
+}
+
+/* Portfolio Items */
+
+.container {
+  position:relative;
+  text-align:center;
+  padding:20px 0px;
+  width:420px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+
+  .container::before{
+    display: block;
+    content: 'Hover over these items:';
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .container span{
+    display: inline-block;
+    padding: 14px 21px;
+    background-color: #78CCD2;
+    color: #186C72;
+    border-radius: 4px;
+    margin: 12px;
+
+    cursor: default;
+
+  }
+
+.container span::after{
+  display:inline-block;
+  padding:20px;
+  margin-top: 5%;
+}
+
+.container span::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  content: attr(data-title);
+  color: #666;
+  opacity: 0;
+  /* Animate the transitions */
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  }
+
+.container span:hover::before{
+  opacity: 1;
+}
+
+.clear {
+  clear: both;
+  padding: 7%;
+}
+
+/*Footer*/
+
+
+.band_footer {
+ background-color: #FFA500;
+ opacity: 0.8;
+ margin: 0 auto;
+ max-width: 100%;
+ max-height: 5%;
+ padding: 1%;
+ text-align: center;
+  } 
