@@ -14,7 +14,7 @@ body {
   padding: 0;
    }
 
-#header {
+header {
    background-color: rgba(247, 247, 150, 0.58);
    opacity: 1;
    position: fixed;
@@ -29,7 +29,7 @@ body {
 }
 
 
-#header h1 {
+header h1 {
   padding-left: 4%;
   text-align: center;
   color: #708090;
@@ -117,15 +117,12 @@ h2 {
 
 }
 
-#footer {
+footer {
   background-color: rgba(247, 247, 150, 0.58);
+  margin: 0;
+  width: 100%;
+  text-align: center;
   border-top: solid thick #708090;
   color: #708090;
-  width:100%;
-  height:20%; //your desired height
-  position:fixed;
-  bottom:0;
-  left:0;
-  z-index: 1000;
   display: flex;
 }
