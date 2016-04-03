@@ -10,30 +10,35 @@ body {
   font-weight: 800;
   text-align: center;
   max-width: 100%;
+  margin: 0;
+  padding: 0;
    }
 
 #header {
    background-color: rgba(247, 247, 150, 0.58);
    opacity: 1;
    position: fixed;
-   z-index: 100000;
    border-bottom: solid thick #708090;
    border-width: 15px;
    margin: 0;
-   max-width: 1250px;
-   display: block;
-   z-index: 999;
+   top: 0;
+   left: 0;
+   display: flex;
+   z-index: 600;
+   width: 100%;
 }
 
 
 #header h1 {
-  text-align: left;
+  padding-left: 4%;
+  text-align: center;
   color: #708090;
+
   }
 
 .header p {
   margin: 0;
-  text-align: right;
+  text-align: center;
   vertical-align: auto;
 }
 
@@ -113,10 +118,14 @@ h2 {
 }
 
 #footer {
- background-color: rgba(247, 247, 150, 0.58);
- margin-bottom: 0;
- width: 100%;
- text-align: center;
- border-top: solid thick #708090;
- color: #708090;
- } 
+  background-color: rgba(247, 247, 150, 0.58);
+  border-top: solid thick #708090;
+  color: #708090;
+  width:100%;
+  height:20%; //your desired height
+  position:fixed;
+  bottom:0;
+  left:0;
+  z-index: 1000;
+  display: flex;
+}
