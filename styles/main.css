@@ -10,8 +10,8 @@ body {
   font-weight: 800;
   text-align: center;
   max-width: 100%;
-  margin: 0;
   padding: 0;
+  margin: 0 0 50px
    }
 
 header {
@@ -119,10 +119,12 @@ h2 {
 
 footer {
   background-color: rgba(247, 247, 150, 0.58);
-  margin: 0;
-  width: 100%;
-  text-align: center;
   border-top: solid thick #708090;
   color: #708090;
-  display: flex;
-}
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  overflow:hidden;
+}    
