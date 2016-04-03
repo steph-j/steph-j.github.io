@@ -9,19 +9,20 @@ body {
   font-family: 'Short Stack', cursive;
   font-weight: 800;
   text-align: center;
-  width: 100%;
+  max-width: 100%;
    }
 
 #header {
    background-color: rgba(247, 247, 150, 0.58);
    opacity: 1;
-   max-width: 100%;
-   padding: 0;
    position: fixed;
    z-index: 100000;
    border-bottom: solid thick #708090;
    border-width: 15px;
    margin: 0;
+   max-width: 1250px;
+   display: block;
+   z-index: 999;
 }
 
 
@@ -41,7 +42,6 @@ body {
   z-index: 1;
   height: auto;
   top: 105px;
-  width: 100%;
   margin: 0;
 
 }
@@ -93,15 +93,14 @@ h2 {
   position:relative;
   text-align:center;
   padding:5px 0;
-  max-width:100%;
   height: 100px;
   opacity: 1.0;
   align-items: center;
   }
 
 .work img {
-  margin-top: 2%;
-  margin: 5%;
+  vertical-align: center;
+  width: 100%;
 }
 
 
@@ -117,8 +116,7 @@ h2 {
  background-color: rgba(247, 247, 150, 0.58);
  margin-bottom: 0;
  width: 100%;
- padding: 0;
  text-align: center;
  border-top: solid thick #708090;
  color: #708090;
-  } 
+ } 
