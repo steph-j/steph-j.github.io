@@ -7,8 +7,8 @@
 }
 
 body {
-  font-family: 'Short Stack', cursive;
-  font-weight: 800;
+  font-family: 'Pompiere', cursive;
+  font-weight: 900;
   text-align: center;
   max-width: 100%;
   padding: 0;
@@ -16,8 +16,7 @@ body {
    }
 
 header {
-   background-color: rgba(247, 247, 150, 0.58);
-   opacity: 1;
+   background-color: #999;
    position: fixed;
    border-bottom: solid thick #708090;
    border-width: 15px;
@@ -30,17 +29,25 @@ header {
 }
 
 
-header h1 {
-  padding-left: 4%;
+.nav {
   text-align: center;
   color: #708090;
-
+  display: inline-block;
+  margin: 0;
   }
 
-.header p {
-  margin: 0;
-  text-align: center;
-  vertical-align: auto;
+.nav li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 2% 5%;
+  vertical-align: text-bottom;
+  margin: 2% 5%;
+  background-color: #333;
+  box-shadow: 8px 8px black; 
+}
+
+.nav h1{
+  text-align: center; 
 }
 
 .main {
