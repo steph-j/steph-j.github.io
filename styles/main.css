@@ -13,12 +13,14 @@ body {
   max-width: 100%;
   padding: 0;
   margin: 0;
+  background: url("http://content.backgrounds.picaboo.com/download/10/0b/10b3b01613b947128ecfdd864e894c17/tmp_vintage_paper.jpg") center center;
+
    }
 
 header {
-   background-color: #999;
+   background-color: #5D4C46;
    position: fixed;
-   border-bottom: solid thick #708090;
+   border-bottom: solid thick #44B3C2;
    border-width: 15px;
    margin: 0;
    top: 0;
@@ -26,6 +28,7 @@ header {
    display: flex;
    z-index: 600;
    width: 100%;
+   max-height: 95px;
 }
 
 
@@ -39,9 +42,9 @@ header {
 .nav li{
   list-style-type: none;
   display: inline-block;
-  padding: 2% 5%;
+  padding: 1% 5%;
   vertical-align: text-bottom;
-  margin: 2% 5%;
+  margin: 1% 5%;
   background-color: #333;
   box-shadow: 8px 8px black; 
 }
@@ -50,32 +53,19 @@ header {
   text-align: center; 
 }
 
-.main {
-  position: relative;
-  z-index: 1;
-  height: auto;
-  top: 105px;
-  margin: 0;
-
+.spacer {
+  height: 110px;
 }
 
-.main:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url("http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2011/05/pattern-46.jpg") center center;
-    opacity: .4;
-    background-size: cover;
-    position: fixed;
+.main {
+  clear: both;
 }
 
 .Introduction {
   text-align: center;
-  margin: 30px 0 0 0;
+  margin: 0 auto;
+  position: absolute;
+
 }
 
 h1 {
@@ -83,7 +73,7 @@ h1 {
 }
 
 h2 {
-  color: #CD5C5C;
+  color: #5D4C46;
 }
 
 .wireframe-pics img {
@@ -126,9 +116,9 @@ h2 {
 }
 
 footer {
-  background-color: rgba(247, 247, 150, 0.58);
-  border-top: solid thick #708090;
-  color: #708090;
+  background-color: #44B3C2;
+  border-top: solid thick #5D4C46;
+  color: #5D4C46;
   position: relative;
   left: 0;
   bottom: 0;
