@@ -30,6 +30,10 @@ header {
    max-height: 95px;
 }
 
+header h1 {
+  margin-top: 2%;
+}
+
 
 .nav {
   text-align: center;
@@ -43,7 +47,7 @@ header {
   display: inline-block;
   padding: 1% 5%;
   vertical-align: text-bottom;
-  margin: 1% 5%;
+  margin: 2% 5% 1% 5%;
   background-color: #333;
   box-shadow: 8px 8px black; 
 }
