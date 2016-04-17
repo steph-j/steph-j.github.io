@@ -123,12 +123,12 @@ h2 {
 
 .direction {
   color: #708090;
-  display: inline-block;
+  display: block;
   list-style-type: none;
   background-color: #333;
   box-shadow: 8px 8px black; 
   text-align: center;
-  margin: 2%;
+  margin: 0 5%;
 }
 
 .clear0 {
